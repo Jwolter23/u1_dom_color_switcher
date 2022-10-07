@@ -4,6 +4,7 @@ body {
   font-family: sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  transition: background-color 1s ease;
 }
 
 li a {
@@ -36,7 +37,7 @@ p {
 }
 
 .white {
-  background-color: white;
+  background-color: darkolivegreen;
 }
 
 .blue {
@@ -45,4 +46,8 @@ p {
 
 .yellow {
   background-color: yellow;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, darkolivegreen, rgb(0, 255, 242));
 }
